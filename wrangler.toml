@@ -1,0 +1,11 @@
+name = "jsziptests"
+main = "src/index.ts"
+compatibility_date = "2022-12-15"
+
+account_id = "ACCOUNT_ID"
+workers_dev = true
+
+[[r2_buckets]]
+binding = 'ZIP_BUCKET' # <~ valid JavaScript variable name
+bucket_name = 'BUCKET_NAME'
+preview_bucket_name =  "PREVIEW_BUCKET_NAME"
